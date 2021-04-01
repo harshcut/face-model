@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert should match snapshot 1`] = `
+<Alert
+  type="neutral"
+/>
+`;
+
+exports[`Alert should match snapshot 2`] = `
+<Alert
+  type="warning"
+/>
+`;
+
+exports[`Alert should match snapshot 3`] = `
+<Alert
+  type="danger"
+/>
+`;
