@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox should match snapshot 1`] = `
+<ForwardRef(CheckBox)>
+  CheckBox
+</ForwardRef(CheckBox)>
+`;
+
+exports[`CheckBox should match snapshot 2`] = `
+<ForwardRef(CheckBox)
+  defaultChecked={true}
+>
+  CheckBox
+</ForwardRef(CheckBox)>
+`;
