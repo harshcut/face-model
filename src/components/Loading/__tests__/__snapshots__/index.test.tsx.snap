@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should match snapshot 1`] = `
+<Loading
+  type="circular"
+/>
+`;
+
+exports[`Loading should match snapshot 2`] = `
+<Loading
+  type="linear"
+/>
+`;
