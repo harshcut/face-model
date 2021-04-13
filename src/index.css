@@ -9,9 +9,15 @@ body {
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@layer components {
+  .base-card {
+    @apply bg-custom-300 text-custom-100 text-sm flex justify-center items-center min-h-screen w-screen sm:min-h-0 sm:max-w-md sm:px-10 sm:py-5 sm:rounded;
+  }
 }
