@@ -54,12 +54,12 @@ const App = () => {
       </PrivateRoute>
       <Route exact path="/register">
         <div className="base-card">
-          <Register />
+          <Register setVerified={setVerified} />
         </div>
       </Route>
       <Route path="/">
         <div className="base-card">
-          <SignIn />
+          <SignIn setVerified={setVerified} />
         </div>
       </Route>
     </Switch>
