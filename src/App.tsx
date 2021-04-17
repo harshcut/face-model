@@ -45,7 +45,7 @@ const App = () => {
         redirect="/register"
       >
         {verified ? (
-          <div className="base-card">
+          <div className="base-card sm:max-w-2xl">
             <Dashboard />
           </div>
         ) : (
